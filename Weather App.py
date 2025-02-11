@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 
 # Load API key from .env file
+# Sign up for a free API via Open Weather Map, place your API key within a .env file stored in the same directory as your scripts and = the API Key as 'WEATHER_API_KEY"
 load_dotenv()
 API_KEY = os.getenv("WEATHER_API_KEY")
 
